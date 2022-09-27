@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kedai - Coffee Cafe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/820501f469.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navLink wrapper">
+            <a href="#heroSection" class="logo">Kedai</a>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            <ul id="navMenu">
+                <i class="fa-solid fa-close" style="margin: 10px; margin-top: -10px;" onclick="hideMenu()"></i>
+                <li><a href="#aboutUs">About Us</a></li>
+                <li><a href="#ourMenu">Our Menu</a></li>
+                <li><a href="#contactUs">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- hero section -->
+        <section id="heroSection">
+            <article class="hero-text">
+                <h1>Because you can never have too much coffee in your life.</h1>
+                <button class="btn">ORDER NOW</button>
+            </article>
+        </section>
+        <!-- about us -->
+        <section id="aboutUs">
+            <article class="about-content wrapper">
+                <div class="about-text">
+                    <h2>ABOUT US</h2>
+                    <p>Welcome to Kedai, your number one source for all things about coffee. We're dedicated to
+                        providing you the best of coffee, with a focus on dependability, customer service, and unique
+                        taste of cofee.</p>
+                    <p>We're working to turn our passion for coffee into a booming Coffee Shop and Cafe. We hope you
+                        enjoy our products as much as we enjoy offering them to you.</p>
+                </div>
+                <img src="assets/about-img.png" alt="pouring coffee">
+            </article>
+        </section>
+        <!-- our menu -->
+        <section id="ourMenu">
+            <article class="menu-content wrapper">
+                <div class="menu-text">
+                    <h2>OUR MENU</h2>
+                    <div class="menu-item">
+                        <div class="coffee-menu">
+                            <h3>Coffee</h3>
+                            <div class="coffee-item">
+                                <div class="menu-list">
+                                    <h4>Basic</h4>
+                                    <p>Americano</p>
+                                    <p>Espresso</p>
+                                    <p>Latte</p>
+                                </div>
+                                <div class="menu-list">
+                                    <h4>Specialities</h4>
+                                    <p>Capuccino</p>
+                                    <p>Latte Macciato</p>
+                                    <p>Mocca</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="non-coffee">
+                            <h3>Non-Coffee</h3>
+                            <div class="menu-list">
+                                <h4>Tea</h4>
+                                <p>Black Tea</p>
+                                <p>Green Tea</p>
+                                <p>Matcha Tea</p>
+                                <p>Oolong Tea</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-img">
+                    <img src="assets/coffee.png" alt="glass of coffee">
+                    <img src="assets/tea.png" alt="glass of tea">
+                </div>
+            </article>
+        </section>
+        <!-- contact us -->
+        <section id="contactUs">
+            <article class="contact-content wrapper">
+                <div class="contact-text">
+                    <h2>CONTACT US</h2>
+                    <div class="social-location">
+                        <p>Question and Suggestion :</p>
+                        <div class="container">
+                            <div class="social instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                                <p>@kedai.coffee</p>
+                            </div>
+                            <div class=" social location">
+                                <i class="fa-solid fa-house"></i>
+                                <p>Jl. Moh. Toha No.20, Kota Bandung, Jawa Barat </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order-apps">
+                        <p>Order via :</p>
+                        <div class="container">
+                            <a href=""><img src="assets/GrabFood.png" alt="GrabFood"></a>
+                            <a href=""><img src="assets/GoFood.png" alt="GoFood"></a>
+                        </div>
+                    </div>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d865.3172877940966!2d107.60624757183005!3d-6.929667130947884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e9317ba573a7%3A0x33d096decec129d6!2sWarung%20gorengan!5e0!3m2!1sid!2sid!4v1660062317710!5m2!1sid!2sid"
+                    width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+        </section>
+        <!-- about me -->
+        <aside id="aboutMe">
+            <article class="me-content wrapper">
+                <h2>ABOUT ME</h2>
+                <div class="profile">
+                    <img src="assets/qidamqolby.png" alt="profile picture">
+                    <div class="profile-detail">
+                        <div class="profile-name">
+                            <h3>Qidam Qolby</h3>
+                            <h4>(Learn to be) Front End Developer</h4>
+                        </div>
+                        <div class="social-icon">
+                            <div class="social github">
+                                <i class="fa-brands fa-github"></i>
+                                <p>qidamqolby</p>
+                            </div>
+                            <div class="social instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                                <p>qidam.qolby</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </aside>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="copyright">
+            <p>copyright © 2022 qidamqolby</p>
+        </div>
+    </footer>
+    <script src="/main.js"></script>
+</body>
+
+</html>
