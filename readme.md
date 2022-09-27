@@ -2,7 +2,7 @@
 
 This project created for submission on <a href="https://www.dicoding.com/">Dicoding</a> course "Belajar Dasar Pemograman Web"
 
--   <a href="https://qidamqolby.github.io/submission-dicoding-belajar-dasar-pemograman-web">Preview</a>
+-   <a href="https://qidamqolby.github.io/submission-dicoding-kedai">Preview</a>
 
 ## Authors
 
